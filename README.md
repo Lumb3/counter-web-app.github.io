@@ -26,7 +26,7 @@ A crazily interactive and colorful counter web app built using **HTML, CSS, and 
 
 ## 📸 Demo
 
-👉 **Live Preview**: [Fun Counter Demo](https://lumb3.github.io/interactive-counter-website.github.io/)
+👉 **Live Preview**: [Fun Counter Demo](https://lumb3.github.io/counter-web-app.github.io/)
 
 ---
 
