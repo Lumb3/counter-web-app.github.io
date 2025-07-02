@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Crazy Fun Counter</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2132/2132346.png">
+</head>
+<body>
+  <h1>🎉 Fun Counter Program 🎉</h1>
+
+  <label id="countlabel">0</label>
+  <div id="emoji">🙂</div>
+
+  <div id="container">
+    <button id="decrease" class="buttons">➖ Decrease</button>
+    <button id="reset" class="buttons">🔁 Reset</button>
+    <button id="increase" class="buttons">➕ Increase</button>
+  </div>
+
+  <div id="extras">
+    <label for="stepper">Step Size: </label>
+    <input type="number" id="stepper" value="1" min="1" />
+    <button id="randomColor">🎨 Random Background</button>
+    <button id="darkMode">🌓 Toggle Dark Mode</button>
+  </div>
+
+  <div id="stats">
+    <p>🔼 Max: <span id="maxVal">0</span></p>
+    <p>🔽 Min: <span id="minVal">0</span></p>
+    <p>📜 History:</p>
+    <ul id="historyList"></ul>
+  </div>
+
+  <!-- Sound effects -->
+  <audio id="sound-increase" src="https://www.soundjay.com/buttons/sounds/button-3.mp3"></audio>
+  <audio id="sound-decrease" src="https://www.soundjay.com/buttons/sounds/button-4.mp3"></audio>
+  <audio id="sound-reset" src="https://www.soundjay.com/buttons/sounds/button-10.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>

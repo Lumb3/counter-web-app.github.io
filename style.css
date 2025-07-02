@@ -1,0 +1,86 @@
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  background-color: #f0f8ff;
+  color: #333;
+  transition: background-color 0.4s, color 0.4s;
+}
+
+body.dark-mode {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+#countlabel {
+  font-size: 6em;
+  margin: 20px;
+}
+
+#emoji {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  padding: 20px 30px;
+  font-size: 1.2em;
+  background-color: rgb(99, 91, 240);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.25s;
+  min-width: 130px;
+}
+
+.buttons:hover {
+  background-color: rgb(131, 9, 245);
+}
+
+#extras {
+  margin: 20px;
+}
+
+#extras input {
+  width: 60px;
+  padding: 5px;
+  font-size: 1em;
+}
+
+#extras button {
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#stats {
+  margin-top: 30px;
+  text-align: left;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#historyList {
+  max-height: 100px;
+  overflow-y: auto;
+  padding-left: 20px;
+}
